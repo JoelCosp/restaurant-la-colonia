@@ -47,7 +47,7 @@
 
   <div class="preload" data-preaload>
     <div class="circle"></div>
-    <p class="text">Grilli</p>
+    <p class="text">La Colònia</p>
   </div>
 
 
@@ -113,56 +113,25 @@
   <header class="header" data-header>
     <div class="container">
 
-      <span
+      <a href="#home"
         style="
           position: relative;
-          font-family: 'Forum', serif;
-          font-size: clamp(1.8rem, 4vw, 3rem);
-          letter-spacing: 0.08em;
-          color: #E6EEF6;
-          line-height: 1;
-          white-space: nowrap;
-          display: inline-block;
-          font-weight: 600;
-          padding: 0.4em 0;
+          display: inline-flex;
+          align-items: center;
+          height: clamp(34px, 6vw, 52px);
         "
       >
-        La Colònia
-
-        <!-- línea superior -->
-        <span
+        <img
+          src="./assets/images/la-colonia/logo.svg"
+          alt="La Colònia"
           style="
-            position: absolute;
-            top: 0;
-            left: 10%;
-            width: 80%;
-            height: 1px;
-            background: linear-gradient(
-              to right,
-              transparent,
-              #D4A373,
-              transparent
-            );
+            height: 100%;
+            width: auto;
+            display: block;
+            object-fit: contain;
           "
-        ></span>
-
-        <!-- línea inferior -->
-        <span
-          style="
-            position: absolute;
-            bottom: 0;
-            left: 10%;
-            width: 80%;
-            height: 1px;
-            background: linear-gradient(
-              to right,
-              transparent,
-              #D4A373,
-              transparent
-            );
-          "
-        ></span>
-      </span>
+        >
+      </a>
 
       <nav class="navbar" data-navbar>
 
@@ -565,197 +534,275 @@
       -->
 
       <section class="section menu" aria-label="menu-label" id="menu">
-        <div class="container">
+  <div class="container">
+    <p class="section-subtitle text-center label-2">Selecció especial</p>
 
-          <p class="section-subtitle text-center label-2">Selección especial</p>
+    <h2 class="headline-1 section-title text-center">La nostra carta</h2>
+    <p class="section-subtitle text-center label-2">Tapes</p>
 
-          <h2 class="headline-1 section-title text-center">Nuestra carta</h2>
-
-          <ul class="grid-list">
-
-            <li>
-              <div class="menu-card hover:card">
-
-                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
-                  <img src="./assets/images/menu-1.png" width="100" height="100" loading="lazy" alt="Greek Salad"
-                    class="img-cover">
-                </figure>
-
-                <div>
-
-                  <div class="title-wrapper">
-                    <h3 class="title-3">
-                      <a href="#" class="card-title">Greek Salad</a>
-                    </h3>
-
-                    <span class="badge label-1">Seasonal</span>
-
-                    <span class="span title-2">$25.50</span>
-                  </div>
-
-                  <p class="card-text label-1">
-                    Tomatoes, green bell pepper, sliced cucumber onion, olives, and feta cheese.
-                  </p>
-
-                </div>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="menu-card hover:card">
-
-                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
-                  <img src="./assets/images/menu-2.png" width="100" height="100" loading="lazy" alt="Lasagne"
-                    class="img-cover">
-                </figure>
-
-                <div>
-
-                  <div class="title-wrapper">
-                    <h3 class="title-3">
-                      <a href="#" class="card-title">Lasagne</a>
-                    </h3>
-
-                    <span class="span title-2">$40.00</span>
-                  </div>
-
-                  <p class="card-text label-1">
-                    Vegetables, cheeses, ground meats, tomato sauce, seasonings and spices
-                  </p>
-
-                </div>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="menu-card hover:card">
-
-                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
-                  <img src="./assets/images/menu-3.png" width="100" height="100" loading="lazy" alt="Butternut Pumpkin"
-                    class="img-cover">
-                </figure>
-
-                <div>
-
-                  <div class="title-wrapper">
-                    <h3 class="title-3">
-                      <a href="#" class="card-title">Butternut Pumpkin</a>
-                    </h3>
-
-                    <span class="span title-2">$10.00</span>
-                  </div>
-
-                  <p class="card-text label-1">
-                    Typesetting industry lorem Lorem Ipsum is simply dummy text of the priand.
-                  </p>
-
-                </div>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="menu-card hover:card">
-
-                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
-                  <img src="./assets/images/menu-4.png" width="100" height="100" loading="lazy" alt="Tokusen Wagyu"
-                    class="img-cover">
-                </figure>
-
-                <div>
-
-                  <div class="title-wrapper">
-                    <h3 class="title-3">
-                      <a href="#" class="card-title">Tokusen Wagyu</a>
-                    </h3>
-
-                    <span class="badge label-1">New</span>
-
-                    <span class="span title-2">$39.00</span>
-                  </div>
-
-                  <p class="card-text label-1">
-                    Vegetables, cheeses, ground meats, tomato sauce, seasonings and spices.
-                  </p>
-
-                </div>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="menu-card hover:card">
-
-                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
-                  <img src="./assets/images/menu-5.png" width="100" height="100" loading="lazy" alt="Olivas Rellenas"
-                    class="img-cover">
-                </figure>
-
-                <div>
-
-                  <div class="title-wrapper">
-                    <h3 class="title-3">
-                      <a href="#" class="card-title">Olivas Rellenas</a>
-                    </h3>
-
-                    <span class="span title-2">$25.00</span>
-                  </div>
-
-                  <p class="card-text label-1">
-                    Avocados with crab meat, red onion, crab salad stuffed red bell pepper and green bell pepper.
-                  </p>
-
-                </div>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="menu-card hover:card">
-
-                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
-                  <img src="./assets/images/menu-6.png" width="100" height="100" loading="lazy" alt="Opu Fish"
-                    class="img-cover">
-                </figure>
-
-                <div>
-
-                  <div class="title-wrapper">
-                    <h3 class="title-3">
-                      <a href="#" class="card-title">Opu Fish</a>
-                    </h3>
-
-                    <span class="span title-2">$49.00</span>
-                  </div>
-
-                  <p class="card-text label-1">
-                    Vegetables, cheeses, ground meats, tomato sauce, seasonings and spices
-                  </p>
-
-                </div>
-
-              </div>
-            </li>
-
-          </ul>
-
-          <a href="#" class="btn btn-primary">
-            <span class="text text-1">Ver carta completa</span>
-
-            <span class="text text-2" aria-hidden="true">Ver carta completa</span>
-          </a>
-
-          <img src="./assets/images/shape-5.png" width="921" height="1036" loading="lazy" alt="shape"
-            class="shape shape-2 move-anim">
-          <img src="./assets/images/shape-6.png" width="343" height="345" loading="lazy" alt="shape"
-            class="shape shape-3 move-anim">
-
+    <ul class="grid-list">
+      <li>
+        <div class="menu-card hover:card">
+          <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+            <img src="./assets/images/menu-3.png" class="img-cover">
+          </figure>
+          <div>
+            <div class="title-wrapper">
+              <h3 class="title-3"><a href="#" class="card-title">Braves “El Cafè”</a></h3>
+              <span class="span title-2">6 €</span>
+            </div>
+            <p class="card-text label-1">Patates braves amb la salsa especial de la casa.</p>
+          </div>
         </div>
-      </section>
+      </li>
 
+      <li>
+        <div class="menu-card hover:card">
+          <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+            <img src="./assets/images/menu-4.png" class="img-cover">
+          </figure>
+          <div>
+            <div class="title-wrapper">
+              <h3 class="title-3"><a href="#" class="card-title">Pernil ibèric amb pa amb tomàquet</a></h3>
+              <span class="span title-2">16 €</span>
+            </div>
+            <p class="card-text label-1">Pernil ibèric acompanyat de pa amb tomàquet.</p>
+          </div>
+        </div>
+      </li>
 
+      <li>
+        <div class="menu-card hover:card">
+          <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+            <img src="./assets/images/menu-5.png" class="img-cover">
+          </figure>
+          <div>
+            <div class="title-wrapper">
+              <h3 class="title-3"><a href="#" class="card-title">Croquetes de carn</a></h3>
+              <span class="span title-2">8 €</span>
+            </div>
+            <p class="card-text label-1">Croquetes casolanes de carn.</p>
+          </div>
+        </div>
+      </li>
+
+      <li>
+        <div class="menu-card hover:card">
+          <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+            <img src="./assets/images/menu-6.png" class="img-cover">
+          </figure>
+          <div>
+            <div class="title-wrapper">
+              <h3 class="title-3"><a href="#" class="card-title">Foie micuit amb melmelada</a></h3>
+              <span class="span title-2">14 €</span>
+            </div>
+            <p class="card-text label-1">Foie micuit acompanyat de melmelada.</p>
+          </div>
+        </div>
+      </li>
+    </ul>
+
+    <p class="section-subtitle text-center label-2">Entrants i ous estrellats</p>
+
+    <ul class="grid-list">
+      <li>
+        <div class="menu-card hover:card">
+          <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+            <img src="./assets/images/menu-3.png" class="img-cover">
+          </figure>
+          <div>
+            <div class="title-wrapper">
+              <h3 class="title-3"><a href="#" class="card-title">Amanida mesclum amb tonyina</a></h3>
+              <span class="span title-2">9 €</span>
+            </div>
+            <p class="card-text label-1">Amanida mesclum amb tonyina.</p>
+          </div>
+        </div>
+      </li>
+
+      <li>
+        <div class="menu-card hover:card">
+          <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+            <img src="./assets/images/menu-4.png" class="img-cover">
+          </figure>
+          <div>
+            <div class="title-wrapper">
+              <h3 class="title-3"><a href="#" class="card-title">Amanida mesclum amb cabra i beicon</a></h3>
+              <span class="span title-2">10 €</span>
+            </div>
+            <p class="card-text label-1">Amanida amb formatge de cabra i beicon.</p>
+          </div>
+        </div>
+      </li>
+
+      <li>
+        <div class="menu-card hover:card">
+          <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+            <img src="./assets/images/menu-5.png" class="img-cover">
+          </figure>
+          <div>
+            <div class="title-wrapper">
+              <h3 class="title-3"><a href="#" class="card-title">Escalivada amb formatge de cabra</a></h3>
+              <span class="span title-2">10 €</span>
+            </div>
+            <p class="card-text label-1">Verdures escalivades amb formatge de cabra.</p>
+          </div>
+        </div>
+      </li>
+
+      <li>
+        <div class="menu-card hover:card">
+          <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+            <img src="./assets/images/menu-6.png" class="img-cover">
+          </figure>
+          <div>
+            <div class="title-wrapper">
+              <h3 class="title-3"><a href="#" class="card-title">Ous estrellats</a></h3>
+              <span class="span title-2">13–16 €</span>
+            </div>
+            <p class="card-text label-1">
+              Ous estrellats amb pernil ibèric, foie fresc o tòfona.
+            </p>
+          </div>
+        </div>
+      </li>
+    </ul>
+
+    <p class="section-subtitle text-center label-2">Costelles</p>
+
+    <ul class="grid-list">
+      <li>
+        <div class="menu-card hover:card">
+          <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+            <img src="./assets/images/menu-5.png" class="img-cover">
+          </figure>
+          <div>
+            <div class="title-wrapper">
+              <h3 class="title-3"><a href="#" class="card-title">Costella al forn</a></h3>
+              <span class="span title-2">14–15 €</span>
+            </div>
+            <p class="card-text label-1">
+              Costella al forn amb espècies de la casa o salsa barbacoa.
+            </p>
+          </div>
+        </div>
+      </li>
+    </ul>
+
+    <p class="section-subtitle text-center label-2">Burguerpizza i burguer al plat</p>
+
+    <ul class="grid-list">
+      <li>
+        <div class="menu-card hover:card">
+          <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+            <img src="./assets/images/menu-6.png" class="img-cover">
+          </figure>
+          <div>
+            <div class="title-wrapper">
+              <h3 class="title-3"><a href="#" class="card-title">Burguerpizza</a></h3>
+              <span class="span title-2">14–15 €</span>
+            </div>
+            <p class="card-text label-1">
+              Completa, Ibèrica o Cabra.
+            </p>
+          </div>
+        </div>
+      </li>
+
+      <li>
+        <div class="menu-card hover:card">
+          <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+            <img src="./assets/images/menu-5.png" class="img-cover">
+          </figure>
+          <div>
+            <div class="title-wrapper">
+              <h3 class="title-3"><a href="#" class="card-title">Burguer al plat</a></h3>
+              <span class="span title-2">10–16 €</span>
+            </div>
+            <p class="card-text label-1">
+              Amb formatge, foie, ou, ceba caramel·litzada, mel o sal Maldon.
+            </p>
+          </div>
+        </div>
+      </li>
+    </ul>
+
+    <p class="section-subtitle text-center label-2">Pasta a mida</p>
+
+    <ul class="grid-list">
+      <li>
+        <div class="menu-card hover:card">
+          <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+            <img src="./assets/images/menu-6.png" class="img-cover">
+          </figure>
+          <div>
+            <div class="title-wrapper">
+              <h3 class="title-3"><a href="#" class="card-title">Pasta a mida</a></h3>
+              <span class="span title-2">14–16 €</span>
+            </div>
+            <p class="card-text label-1">
+              Tagliatella, gnoquis o tortellini amb salsa a escollir
+              (formatges, bolonyesa, pesto o carbonara).
+            </p>
+          </div>
+        </div>
+      </li>
+    </ul>
+
+    <p class="section-subtitle text-center label-2">Pizza-lònia</p>
+
+    <ul class="grid-list">
+      <li>
+        <div class="menu-card hover:card">
+          <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+            <img src="./assets/images/menu-5.png" class="img-cover">
+          </figure>
+          <div>
+            <div class="title-wrapper">
+              <h3 class="title-3"><a href="#" class="card-title">Pizzes artesanes</a></h3>
+              <span class="span title-2">10–15 €</span>
+            </div>
+            <p class="card-text label-1">
+              Margarita, Ibèrica, Barbacoa, Cabra, Vegana, Calzone, Carbonara i més.
+            </p>
+          </div>
+        </div>
+      </li>
+    </ul>
+
+    <p class="section-subtitle text-center label-2">Postres</p>
+
+    <ul class="grid-list">
+      <li>
+        <div class="menu-card hover:card">
+          <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+            <img src="./assets/images/menu-5.png" class="img-cover">
+          </figure>
+          <div>
+            <div class="title-wrapper">
+              <h3 class="title-3"><a href="#" class="card-title">Postres casolans</a></h3>
+              <span class="span title-2">2,50–15 €</span>
+            </div>
+            <p class="card-text label-1">
+              Tiramisú, pastís de formatge, creps, pecat de xocolata i tarta-pizza de xocolata.
+            </p>
+          </div>
+        </div>
+      </li>
+    </ul>
+
+    <a href="assets/images/la-colonia/carta.pdf"
+      class="btn btn-primary"
+      download="Carta-Restaurant-La-Colonia.pdf">
+      <span class="text text-1">Veure carta completa</span>
+      <span class="text text-2" aria-hidden="true">Veure carta completa</span>
+    </a>
+
+    <img src="./assets/images/shape-5.png" class="shape shape-2 move-anim">
+    <img src="./assets/images/shape-6.png" class="shape shape-3 move-anim">
+
+  </div>
+</section>
 
 
 
@@ -1061,58 +1108,27 @@
       <div class="footer-top grid-list">
 
         <div class="footer-brand has-before has-after">
-
-          <span
+          
+          <!-- IMG LOGO -->
+          <a href="#home"
             style="
               position: relative;
-              font-family: 'Forum', serif;
-              font-size: clamp(1.8rem, 4vw, 3rem);
-              letter-spacing: 0.08em;
-              color: #E6EEF6;
-              line-height: 1;
-              white-space: nowrap;
-              display: inline-block;
-              font-weight: 600;
-              padding: 0.4em 0;
-              margin-bottom: 20px;
+              display: inline-flex;
+              align-items: center;
+              height: clamp(34px, 6vw, 52px);
             "
           >
-            La Colònia
-
-            <!-- línea superior -->
-            <span
+            <img
+              src="./assets/images/la-colonia/logo.svg"
+              alt="La Colònia"
               style="
-                position: absolute;
-                top: 0;
-                left: 10%;
-                width: 80%;
-                height: 1px;
-                background: linear-gradient(
-                  to right,
-                  transparent,
-                  #D4A373,
-                  transparent
-                );
+                height: 100%;
+                width: auto;
+                display: block;
+                object-fit: contain;
               "
-            ></span>
-
-            <!-- línea inferior -->
-            <span
-              style="
-                position: absolute;
-                bottom: 0;
-                left: 10%;
-                width: 80%;
-                height: 1px;
-                background: linear-gradient(
-                  to right,
-                  transparent,
-                  #D4A373,
-                  transparent
-                );
-              "
-            ></span>
-          </span>
+            >
+          </a>
 
           <address class="body-4">
             Plaça Major, 4, 08740 Sant Andreu de la Barca, Barcelona
