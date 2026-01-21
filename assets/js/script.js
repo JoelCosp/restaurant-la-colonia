@@ -40,8 +40,24 @@ const overlay = document.querySelector("[data-overlay]");
 const toggleNavbar = function () {
   navbar.classList.toggle("active");
   overlay.classList.toggle("active");
-  document.body.classList.toggle("nav-active");
-}
+
+  if (navbar.classList.contains("active")) {
+    document.body.classList.add("nav-active");
+  } else {
+    document.body.classList.remove("nav-active");
+  }
+};
+
+const navbarLinks = document.querySelectorAll(".navbar-link");
+
+navbarLinks.forEach(link => {
+  link.addEventListener("click", () => {
+    navbar.classList.remove("active");
+    overlay.classList.remove("active");
+    document.body.classList.remove("nav-active");
+  });
+});
+
 
 addEventOnElements(navTogglers, "click", toggleNavbar);
 
